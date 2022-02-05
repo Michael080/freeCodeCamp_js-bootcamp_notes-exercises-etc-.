@@ -1,0 +1,43 @@
+const hummus = function(factor) {
+  const ingredient = function(amount, unit, name) {
+    let ingredientAmount = amount * factor;
+    if (ingredientAmount > 1) {
+      unit += "s";
+    }
+    console.log(`${ingredientAmount} ${unit} ${name}`);
+  };
+  ingredient(1, "can", "chickpeas");
+  ingredient(0.25, "cup", "tahini");
+  ingredient(0.25, "cup", "lemon juice");
+  ingredient(1, "clove", "garlic");
+  ingredient(2, "tablespoon", "olive oil");
+  ingredient(0.5, "teaspoon", "cumin");
+};
+
+hummus(6.5);
+
+function minus(a, b) {
+  if (b === undefined) return -a;
+  else return a - b;
+}
+
+console.log(minus(3));
+
+// simple logger
+function log(...args) {
+  console.log(...args);
+}
+
+log('s', 'm', 'n');
+
+
+// Closure
+
+function wrapValue(val) {
+  let local = val;
+  return () => local;
+}
+
+let wammo = wrapValue('blammo');
+let bleep = wrapValue('boop-bleep');
+console.log(wammo(), bleep());
