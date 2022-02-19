@@ -478,3 +478,4 @@ function sumTo(num) {
 
 // * 3. Using the arithmetic progression formula. (SOLUTION)
 const arithProg = num => (num * (1 + num)) / 2;
+
