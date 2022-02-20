@@ -1,4 +1,3 @@
-// 
 // submitted to freeCodeCamp
 function randomRange(myMin, myMax) {
   // Only change code below this line
