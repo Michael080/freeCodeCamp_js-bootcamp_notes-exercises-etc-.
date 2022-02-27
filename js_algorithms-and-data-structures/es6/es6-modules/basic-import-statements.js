@@ -1,4 +1,4 @@
-"use strict";//
+"use strict";
 
 //--- Reuse JavaScript Code Using import ---
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/reuse-javascript-code-using-import
