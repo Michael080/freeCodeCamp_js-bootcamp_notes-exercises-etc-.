@@ -17,21 +17,3 @@ const subtract = (x, y) => x - y;
 export { subtract };
 // OR
 // >> all in one: export { add, subtract }
-
-
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
-// --- Write Concise Declarative Functions with ES6 ---
-// 
